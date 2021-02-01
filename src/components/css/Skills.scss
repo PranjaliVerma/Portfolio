@@ -1,0 +1,113 @@
+.skills {
+    background: #18434e;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .bgMain {
+    background: #18434e;
+  }
+  .maindiv{
+    display:flex;
+    width:100%
+  }
+ .progress{
+   width:50px;
+   margin:auto
+ }
+  .skills__box {
+    padding: 30px;
+    background:#78949f ;
+    color:#18434e;
+    margin: 20px;
+    transition: all 0.5s linear;
+   font-weight: bold;
+  }
+ 
+  .shrink{
+   width:33%
+  }
+  .skills__box:hover {
+    background: #2e7082;
+   color:#051615
+  }
+  .commonIcons {
+    font-size: 100px;
+    color: #051615;
+    margin-bottom: 15px;
+  }
+  .skills__box:hover .commonIcons {
+    color: #fff;
+  }
+  .skills__box-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:#051615
+  }
+  .skills__box-p {
+    font-size: 14px;
+  }
+  .common {
+
+    text-align: center;
+  }
+  .container1 {
+    padding-left: 5%;
+    padding-right: 5%;
+     width: 100%;
+   }
+  .mainHeader {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff4a57;
+  }
+  .mainContent {
+    font-size: 16px;
+    color: #dfdfdf;
+  }
+  .commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 100px;
+    margin: 30px auto;
+  }
+
+  @media (max-width: 775px) {
+    .skills__box {
+      padding: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+    margin: 10px;}
+    .skills__box-header {
+    width:100% ;
+    }
+    .skills__box-p {
+      font-size: 18px;
+      margin-top: -26px
+  }
+    .bgMain {
+      
+      width: 100%;
+  }
+  .progress{
+    width:105px;
+    margin: 0;
+  }
+    .shrink{
+        width:100%
+       }
+    .common {
+      width: 100%;
+    }}
+
+    .CircularProgressbar .CircularProgressbar-path{
+      stroke: #051615 !important;
+    }
+    .CircularProgressbar .CircularProgressbar-text{
+      fill: #051615 !important;
+    }

@@ -1,0 +1,38 @@
+/* common css */
+
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script|Playfair+Display:400italic|Libre+Baskerville:400italic|Alice|Niconne|Radley:400italic|Sorts+Mill+Goudy:400italic|Fanwood+Text:400italic);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pd{
+  font-weight: bold;
+  font-size: 3rem;
+}
+.mydata{
+    width: 70%;
+    margin: auto auto;
+    text-align: center;
+}
+.text-shadow{
+  text-shadow: 4px 4px 1px rgba(150, 150, 152, 0.68)
+}
+.box-shadow{
+  box-shadow: 9px 11px 5px 2px rgba(0,0,0,0.28) !important;
+}
+.cursive{
+  font-family: 'Fanwood Text', serif;
+  font-size: 1.2rem;
+}
+@media (max-width: 860px) {
+  .pd{
+    padding:20px
+  }
+  .mydata{
+    width: 95%;
+    margin: auto auto;
+    z-index: 100;
+}}
+.react-confirm-alert-body {
+  width: auto !important;
+}

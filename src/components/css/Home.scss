@@ -1,0 +1,130 @@
+.header__ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .header__ul li {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #051615;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    padding-top: 3px;
+  }
+  .header__ul li:hover {
+    background: #18434e;
+    border: 2px solid transparent;
+  }
+  .header__ul li .headerIcon {
+    color: #051615;
+  }
+  .header__ul li:hover .headerIcon {
+    color: #18434e;
+  font-weight: bold;
+  }
+  .header__ul li:hover  {
+   
+    background-color: #a1bdd0;
+    color:#18434e;
+  }
+
+  .header__ul li:first-child {
+    margin-left: 0;
+  }
+
+  .redfont{
+    color:#051615; 
+    font-weight:bold
+  }
+
+ 
+
+  .bannerData{
+     padding: 5%;
+     width:50%;
+     padding-top: 15%;
+     padding-bottom: 15%;
+   }
+
+   .btn {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: bold !important;
+  }
+.btn:hover{
+  background-color: #a1bdd0;
+  color:#18434e
+}
+   .btn-outline {
+  
+    border: 2px solid #051615;
+    border-radius: 50px;
+    padding: 13px 40px;
+  }
+
+  //for moving circles on home page
+#move { width:126px; height:126px;  transform-origin:200% center; position:relative; animation:rotate 12s linear  reverse infinite; }
+#move:before { content:''; position:absolute; height:100%; width:100%; border-radius: 76px;background:#a1bdd0; animation:rotate 3s linear infinite; }
+
+#move1 { width:96px; height:96px;  transform-origin:200% center; position:relative; animation:rotate 8s linear infinite; }
+#move1:before { content:''; position:absolute; height:100%; width:100%; border-radius: 76px;background:#8bb5d1; animation:rotate 3s linear  infinite; }
+
+#move2 { width:76px; height:76px;  transform-origin:200% center; position:relative; animation:rotate 8s linear reverse infinite; }
+#move2:before { content:''; position:absolute; height:100%; width:100%; border-radius: 76px;background:#a1bdd0; animation:rotate 3s linear  infinite; }
+
+#move3 { width:66px; height:66px;  transform-origin:200% center; position:relative; animation:rotate 6s linear reverse infinite; }
+#move3:before { content:''; position:absolute; height:100%; width:100%; border-radius: 76px;background:#8bb5d1; animation:rotate 3s linear  infinite; }
+
+#move4 { width:106px; height:106px;  transform-origin:200% center; position:relative; animation:rotate 10s linear  infinite; }
+#move4:before { content:''; position:absolute; height:100%; width:100%; border-radius: 76px;background:#a1bdd0; animation:rotate 3s linear  infinite; }
+
+#move5 { width:90px; height:90px;  transform-origin:200% center; position:relative; animation:rotate 7s linear reverse infinite; }
+#move5:before { content:''; position:absolute; height:100%; width:100%; border-radius: 76px;background:#8bb5d1; animation:rotate 3s linear  infinite; }
+@keyframes rotate { 100% { transform:rotate(-360deg); } }
+
+.bannerimg{
+  padding: 5%;
+  width:50%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  height:712px;
+  padding-top: 70px;
+}
+.flexType{
+  width:100%;
+  display:flex
+}
+
+  @media (max-width: 860px) {
+    .flexType{
+     flex-direction: column;
+    }
+    #move,#move1,#move2, #move3,#move4,#move5{
+      display: none !important;
+    }
+    .bannerimg{
+      padding: 0%;
+      width:100%;
+      opacity:0.6;
+      z-index: -11;
+    }
+    .bannerData{
+       width:100%;
+       padding-top: 48%;
+      padding-bottom: 0%;
+       position: absolute;
+     }
+    }
+
+    @media (max-width: 520px) {
+      .bannerData{
+       padding-top: 80%;
+       padding-bottom: 0%;
+      }
+    }

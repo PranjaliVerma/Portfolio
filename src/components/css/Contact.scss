@@ -1,0 +1,155 @@
+.contact {
+padding: 60px 0;
+background:#a1bdd0;
+width: 100%;
+}
+.displayflex{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+.left-c{
+width:50%;
+padding: 5% 10% 0% 10%;
+}
+.right-c{
+width:50%;
+padding: 5% 10% 0% 10%;
+}
+.colorlib-feature {
+text-align: left;
+width: 100%;
+float: left;
+height: 80px;
+margin-bottom: 80px;
+position: relative;
+}
+.colorlib-feature .colorlib-icon {
+position: absolute;
+top: 0;
+left: 0;
+width: 90px;
+height: 90px;
+display: table;
+text-align: center;
+background: #f2f3f7;
+border-radius: 2px;
+}
+.iconSize
+{font-size:3rem
+}
+.success{
+color: green;
+}
+.failure{
+color: red;
+}
+.colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+font-size: 28px;
+}
+.colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+color: #2c98f0;
+}
+.colorlib-feature .colorlib-icon i {
+display: table-cell;
+vertical-align: middle;
+height: 100px;
+}
+.colorlib-feature.colorlib-feature-sm .colorlib-text {
+margin-top: 30px;
+}
+.colorlib-feature .colorlib-text {
+padding-left: 120px;
+width: 100%;
+color: #051615 !important;
+text-decoration: none !important;
+}
+.colorlib-text {
+p
+{  a{
+color: rgb(29, 29, 141) !important;
+text-decoration: none !important; }
+}
+}
+form {
+display: block;
+margin-top: 0em;
+}
+.form-group {
+margin-bottom: 15px;
+}
+.form-control {
+display: block;
+width: 100%;
+appearance: none;
+box-shadow: none;
+background: 0 0;
+border: transparent;
+padding: 10px 20px;
+line-height: 1.42857;
+color: #555;
+height: 54px;
+font-size: 16px;
+font-weight: 400;
+transition: .3s;
+border-radius: 0;
+background-color: whitesmoke
+}
+#message {
+height: 130px;
+}
+.colorlib-feature {
+text-align: left;
+width: 100%;
+float: left;
+margin-bottom: 40px;
+position: relative;
+}
+body {
+font-weight: 400;
+font-size: 15px;
+line-height: 1.8;
+color: rgba(0,0,0,.7);
+}
+input[type=submit] {
+cursor: pointer;
+}
+.btn-primary {
+background: #2c98f0;
+color: #fff;
+border: 2px solid #2c98f0;
+}
+.btn {
+display: inline-block;
+white-space: nowrap;
+text-align: center;
+vertical-align: middle;
+margin-right: 4px;
+margin-bottom: 4px;
+line-height: 1.42857;
+user-select: none;
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1px;
+border-radius: 2px;
+transition: .5s;
+padding: 8px 15px!important;
+}
+.icon {
+font-weight: 400;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+}
+@media (max-width: 860px)
+{
+.left-c{
+width: 100% !important;
+}
+.right-c{
+width: 100% !important;
+}
+.colorlib-text {
+padding-left: 96px !important;}
+}

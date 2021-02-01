@@ -1,0 +1,45 @@
+
+.Project{
+width: 100%;
+}
+.projclr{
+color:white !important
+}
+.projimg{
+height: 225px;
+width:80%;
+display: flex;
+justify-content: center;
+}
+.shrinkdiv{
+width:100%;
+padding: 0 10% 0 10%
+}
+.childofdiv {
+width: 100%;
+}
+.technology{
+display: inline;
+background-color: #96cce1;
+border-radius: 12px;
+padding: 4px 12px 4px 12px ;
+margin-right: 12px;
+margin-top: 15px;
+}
+.wrapping{
+display: flex !important;
+flex-wrap: wrap !important;
+background-color: transparent;
+justify-content: center;
+}
+.align-centre{
+text-align: center;
+}
+@media (max-width: 860px){
+.shrinkdiv{
+padding: 0%
+}
+.projimg {
+width: 100%;
+margin-bottom: 25px;}
+}
